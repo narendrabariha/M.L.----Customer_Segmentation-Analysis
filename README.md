@@ -2,3 +2,4 @@
 
 # Rebase or squash to make a clean commit history
 git rebase -i HEAD~5  # Choose how many commits to clean
+GIT_COMMITTER_DATE="2024-04-01T12:00:00" git commit --amend --no-edit --date "2024-04-01T12:00:00"
